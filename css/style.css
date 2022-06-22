@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(20 21 24);
+    color: white;
+}
+
+.card {
+    /* padding: 200px 100px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.question {
+    font-size: 30px;
+}
+
+.questionexplained {
+    padding-right: 150px;
+    line-height: 1.5;
+    color: rgb(66, 70, 77)
+}
+
+/* .ratingsection {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 0px;
+} */
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+  
+
+.clickedrating {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: rgb(250 118 19);
+}
+
+/* .rating {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background: red ;
+} */
+
+input:checked + label {
+    background: rgb(250 118 19);
+}
+
+.rating {
+    margin: 5px 10px 5px 0px;
+    padding: 10px 15px;
+    background:  rgb(39 46 56);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rating:hover {
+    background: rgb(250 118 19);
+}
+
+.submit {
+    color: white;
+    height: 30px;
+    width: 300px;
+    margin: 10px 30px 10px 10px;
+    border: none;
+    cursor: pointer;
+    background: rgb(250 118 19);
+    border-radius: 100px;
+}
+

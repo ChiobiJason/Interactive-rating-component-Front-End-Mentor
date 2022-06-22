@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+
+    <div class="card">
+      <h3 class="question">How did we do?</h3>
+      <h4 class="questionexplained">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </h4>
+      <div class="ratingsection">
+        <!-- <button class="rating">1</button>
+        <button class="rating">2</button>
+        <button class="rating">3</button>
+        <button class="rating">4</button>
+        <button class="rating">5</button> -->
+        <input
+          type="radio"
+          name="rating-set"
+          value="1"
+          id="rating-1"
+          class="visually-hidden"
+        />
+        <label for="rating-1" class="rating">1</label>
+        <input
+          type="radio"
+          name="rating-set"
+          value="2"
+          id="rating-2"
+          class="visually-hidden"
+        />
+        <label for="rating-2" class="rating">2</label>
+        <input
+          type="radio"
+          name="rating-set"
+          value="3"
+          id="rating-3"
+          class="visually-hidden"
+        />
+        <label for="rating-3" class="rating">3</label>
+        <input
+          type="radio"
+          name="rating-set"
+          value="4"
+          id="rating-4"
+          class="visually-hidden"
+        />
+        <label for="rating-4" class="rating">4</label>
+        <input
+          type="radio"
+          name="rating-set"
+          value="5"
+          id="rating-5"
+          class="visually-hidden"
+        />
+        <label for="rating-5" class="rating">5</label>
+      </div>
+      <br />
+      <button class="submit">Submit</button>
+    </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    You selected
+    <!-- Add rating here -->
+    out of 5 Thank you! We appreciate you taking the time to give a rating. If
+    you ever need more support, don’t hesitate to get in touch!
+
+    <!-- Thank you state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Chisom Chiobi</a>.
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
